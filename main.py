@@ -12,7 +12,7 @@ def average_digit(number):
 def is_positive(a):
     return a > 0
 
-def is_positive(a):
-    return a < 0
+def is_negative(number):
+    return number < 0
 
 
