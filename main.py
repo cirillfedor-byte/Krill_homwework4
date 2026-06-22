@@ -9,3 +9,5 @@ def average_digit(number):
     digits = [int(digit) for digit in str(number)]
     return sum(digits) / len(digits)
 
+def is_positive(a):
+    return a > 0
